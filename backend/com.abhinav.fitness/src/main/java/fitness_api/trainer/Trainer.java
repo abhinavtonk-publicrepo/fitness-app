@@ -1,19 +1,32 @@
 package fitness_api.trainer;
 
+import java.util.List;
+
+import fitness_api.trainee.Trainee;
+
 public class Trainer {
 	int trainerId;
 	String trainerName;
 	int trainerTotalExperience;
-	//	List<Trainee> traineeList;
+	List<Trainee> traineeList;
 	
-	public int getTrainerId() {
-		return trainerId;
-	}
-	public Trainer(int trainerId, String trainerName, int trainerTotalExperience) {
+	public Trainer(int trainerId, String trainerName, int trainerTotalExperience, List<Trainee> traineeList) {
 		this.trainerId = trainerId;
 		this.trainerName = trainerName;
 		this.trainerTotalExperience = trainerTotalExperience;
+		this.traineeList = traineeList;
 	}
+	
+	public List<Trainee> getTraineeList() {
+		return traineeList;
+	}
+	public void setTraineeList(List<Trainee> traineeList) {
+		this.traineeList = traineeList;
+	}
+	public int getTrainerId() {
+		return trainerId;
+	}
+	
 	public void setTrainerId(int trainerId) {
 		this.trainerId = trainerId;
 	}

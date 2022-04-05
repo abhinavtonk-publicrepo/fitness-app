@@ -19,8 +19,7 @@ public class TrainerController {
 	@Autowired
 	TrainerService trainerService;
 	
-//	@GetMapping(path = "/trainers" , produces = {MediaType.APPLICATION_JSON_VALUE})
-	@GetMapping(path = "/trainers")
+	@GetMapping(path = "/trainers" , produces = {MediaType.APPLICATION_JSON_VALUE})
 	public List<Trainer> getAllTrainers(){
 		return trainerService.getAllTrainers();
 	}

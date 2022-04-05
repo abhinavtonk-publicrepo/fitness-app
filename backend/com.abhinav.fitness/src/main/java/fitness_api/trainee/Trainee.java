@@ -4,14 +4,14 @@ public class Trainee {
 	int traineeId;
 	String traineeName;
 	float traineeWeight;
-	float trainneeHeight;
+	float traineeHeight;
 	int traineeAge;
 	
-	public Trainee(int traineeId, String traineeName, float traineeWeight, float trainneeHeight, int traineeAge) {
+	public Trainee(int traineeId, String traineeName, float traineeWeight, float traineeHeight, int traineeAge) {
 		this.traineeId = traineeId;
 		this.traineeName = traineeName;
 		this.traineeWeight = traineeWeight;
-		this.trainneeHeight = trainneeHeight;
+		this.traineeHeight = traineeHeight;
 		this.traineeAge = traineeAge;
 	}
 	
@@ -33,11 +33,11 @@ public class Trainee {
 	public void setTraineeWeight(float traineeWeight) {
 		this.traineeWeight = traineeWeight;
 	}
-	public float getTrainneeHeight() {
-		return trainneeHeight;
+	public float getTraineeHeight() {
+		return traineeHeight;
 	}
-	public void setTrainneeHeight(float trainneeHeight) {
-		this.trainneeHeight = trainneeHeight;
+	public void setTraineeHeight(float traineeHeight) {
+		this.traineeHeight = traineeHeight;
 	}
 	public int getTraineeAge() {
 		return traineeAge;
