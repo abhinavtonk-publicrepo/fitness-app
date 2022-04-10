@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import fitness_api.trainee.Trainee;
 
 @Repository
-public class TrainerRepository {
+public class TrainerRepository2 {
 
 	public List<Trainer> trainerList = populateTrainers();
 	
