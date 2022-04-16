@@ -1,0 +1,15 @@
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;   /* Height of the footer */
+    background:#383838;
+ }
+
+.footer-year{
+    float: left;
+}
+
+.footer-powered-by{
+    float:right;
+}

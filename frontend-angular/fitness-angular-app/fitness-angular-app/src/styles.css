@@ -9,6 +9,10 @@ h1 { color: #ffffff;
     margin: 0 0 58px; 
 }
 
+h3{
+    color: white
+}
+
 p { color: #adb7bd; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 16px; line-height: 26px; text-indent: 30px; margin: 0; }
 
 

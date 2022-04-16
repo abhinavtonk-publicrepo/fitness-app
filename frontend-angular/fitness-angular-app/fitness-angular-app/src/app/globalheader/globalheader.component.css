@@ -1,7 +1,10 @@
+
 .header-container{
+    top:0;
     height: 100px;
-    max-width: 980px;
+    width: 100%;
     padding-top: 5px;
+    background-color: #383838;
 }
 
 .header-title{
